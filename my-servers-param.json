@@ -1,0 +1,18 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdacityHighAvailabilityWebSite"
+	},
+	{
+		"ParameterKey": "AMIId",
+		"ParameterValue": "ami-0729e439b6769d6ab"
+	},
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t3.medium"
+	},
+    {
+		"ParameterKey": "WebServerVolumeSize",
+		"ParameterValue": "10"
+	}
+]
