@@ -19,3 +19,19 @@ You have been tasked with provisioning the required infrastructure and deploying
 - The application needs to be deployed into private subnets with a Load Balancer located in a public subnet.
 - One of the output exports of the CloudFormation script should be the public URL of the LoadBalancer.
 - Bonus points if you add http:// in front of the load balancer DNS Name in the output, for convenience.
+
+## Files Included
+
+- create.sh: for create cloudformation
+- update.sh: for updating cloudformation
+- my-network.yaml: Network infrastructure configuration
+- my-network-param.json: Network infrastructure parameter file
+- my-servers.yaml: Server configuration
+- my-servers-param.json: Server parameter file
+- index.html: The index file uploaded to s3
+- aws-highly-available-diagram.png: AWS Cloud Infrastructure diagram
+
+## How to execute
+
+- ./create.sh [taskname] file-name.yaml paramter.json
+- ./update.sh [taskname] file-name.yaml paramter.json
